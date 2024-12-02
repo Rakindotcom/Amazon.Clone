@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
-nav{
+.nav {
     height: 60px;
-    background-color: #0f1111;
+    background-color: #152238;
     color: white;
+}
+.navlogo{
+    height: 60 px;
+    width: 120px;
+}
+.navlogo img {
+    height: 55px;
+}
+
+.border:hover {
+    border: 1.5px solid red;
 }
