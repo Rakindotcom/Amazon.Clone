@@ -9,17 +9,31 @@
 
 .nav {
     height: 60px;
+    width: 100%;
     background-color: #152238;
     color: white;
+    display: flex;
+    align-items: center;
 }
 .navlogo{
-    height: 60 px;
-    width: 120px;
+    height: 58px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 .navlogo img {
-    height: 55px;
+    height: 35px;
 }
 
 .border:hover {
-    border: 1.5px solid red;
+    border: 3px solid whitesmoke;
+}
+.location{
+    display: flex;
+    gap: 5px;
+}
+.location p{
+    font-size: 0.9rem;
 }
